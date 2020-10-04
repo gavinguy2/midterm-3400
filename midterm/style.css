@@ -1,14 +1,4 @@
 @font-face {
-    font-family: SegoeUI;
-    src: url('fonts/SEGOEUI.TTF');
-}
-
-@font-face {
-    font-family: SegoeUIBold;
-    src: url('fonts/SEGOEUIB.TTF');
-}
-
-@font-face {
     font-family: SegoeUIL;
     src: url('fonts/segoeuil.ttf');
 }
@@ -28,13 +18,23 @@
     src: url('fonts/fontawesome.ttf');
 }
 
+@font-face {
+    font-family: SegoeUI;
+    src: url('fonts/SEGOEUI.TTF');
+}
+
+@font-face {
+    font-family: SegoeUIBold;
+    src: url('fonts/SEGOEUIB.TTF');
+}
 
 
 
-body {
+
+#wrapper {
     
     display: grid;
-    grid-template-columns:1fr 600px 600px 1fr;
+    grid-template-columns:1fr 585px 585px 1fr;
     grid-template-rows: repeat(10, auto);
 }
 
@@ -617,7 +617,7 @@ footer ul li a {
    
 }
     
-    body {
+    #wrapper {
     
     display: grid;
     grid-template-columns:1fr 500px 500px 1fr;
@@ -696,7 +696,7 @@ footer {
  
     .galleryItem > div {
    
-    width: 54%;
+    width: 100%;
     height: 99%;
    
 }
@@ -707,7 +707,7 @@ footer {
     
 }
 
-/*--------------------------------------------------------------------------------------------------------------------------------------*/\
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
 
 
 @media screen and (max-width: 992px) {
@@ -733,7 +733,7 @@ footer {
     img#sweet{
         display: none;
     }
-    body {
+    #wrapper {
     
     display: grid;
     grid-template-columns:1fr 250px 250px 1fr;
@@ -828,7 +828,7 @@ footer {
 }
     .galleryItem > div {
    
-    width: 54%;
+    width: 100%;
     height: 99%;
    
 }
