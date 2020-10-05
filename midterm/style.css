@@ -1,36 +1,3 @@
-@font-face {
-    font-family: SegoeUIL;
-    src: url('fonts/segoeuil.ttf');
-}
-
-@font-face {
-    font-family: SegoeUISB;
-    src: url('fonts/seguisb.ttf')
-}
-
-@font-face {
-    font-family: BitterB;
-    src: url('fonts/Bitter-Bold.otf');
-}
-
-@font-face{
-    font-family: Fontawesome;
-    src: url('fonts/fontawesome.ttf');
-}
-
-@font-face {
-    font-family: SegoeUI;
-    src: url('fonts/SEGOEUI.TTF');
-}
-
-@font-face {
-    font-family: SegoeUIBold;
-    src: url('fonts/SEGOEUIB.TTF');
-}
-
-
-
-
 #wrapper {
     
     display: grid;
@@ -58,6 +25,32 @@ nav {
 nav ul li {
     padding: 3px;
 }
+
+@font-face {
+    font-family: SegoeUIL;
+    src: url('fonts/segoeuil.ttf');
+}
+
+@font-face {
+    font-family: SegoeUISB;
+    src: url('fonts/seguisb.ttf')
+}
+
+@font-face{
+    font-family: Fontawesome;
+    src: url('fonts/fontawesome.ttf');
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src: url('fonts/SEGOEUI.TTF');
+}
+
+@font-face {
+    font-family: SegoeUIBold;
+    src: url('fonts/SEGOEUIB.TTF');
+}
+
 
 nav ul li a {
     color: white;
